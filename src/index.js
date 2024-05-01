@@ -1,6 +1,6 @@
 import express from "express";
 import { createServer } from "node:http";
-import { publicPath } from "frontend";
+import { publicPath } from "easynebula/frontend";
 import { uvPath } from "@easynebula/frontend";
 import { epoxyPath } from "@mercuryworkshop/epoxy-transport";
 import { baremuxPath } from "@mercuryworkshop/bare-mux";
