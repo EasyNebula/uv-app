@@ -1,7 +1,7 @@
 import express from "express";
 import { createServer } from "node:http";
-import { publicPath } from "ultraviolet-static";
-import { uvPath } from "@titaniumnetwork-dev/ultraviolet";
+import { publicPath } from "frontend";
+import { uvPath } from "@easynebula/frontend";
 import { epoxyPath } from "@mercuryworkshop/epoxy-transport";
 import { baremuxPath } from "@mercuryworkshop/bare-mux";
 import { join } from "node:path";
